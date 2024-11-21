@@ -29,8 +29,8 @@ while i!=0:
         print('\n------------------------- EDIT MODE ACTIVATED -------------------------\n')
         u=1
         while u!=0:
-            edit_name = input("Enter the name that needs editing (enter \'exit\' for exiting): ")
-            if edit_name=='exit':
+            edit_name = input("Enter the name that needs editing (enter \'0\' for exiting): ")
+            if edit_name=='0':
                 print ('\n------------------------- EDIT MODE DEACTIVATED -------------------------\n')
                 u=0
             elif edit_name in data.keys():
